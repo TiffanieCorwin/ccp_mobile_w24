@@ -3,28 +3,31 @@ body{
     background-color: #D6E0FF;}
 
     h1{
-    font-family: Oswald, Courier, monospace;
+    font-family: Courier, monospace;
     font-display: center;
     color: black;
+    font-size: x-large;
 }
 h2{
-    font-family: Oswald, Courier, monospace;
-    font-size: large;
+    font-family: Courier, monospace;
+    font-size: larger;
     color:#9101FF;
 }
 h3{
-    font-family: Oswald, Courier, monospace;
-    font-size:large;
+    font-family: Courier, monospace;
+    font-size:larger;
     color:blue
 }
 h4{
-    font-family: Oswald, Courier, monospace;
-    font-size:large;
-    color:rgb(5, 5, 91)  
+    font-family: Courier, monospace;
+    font-size:larger;
+    color:rgb(5, 5, 91)
 
 }
 p{
     line-height: 1.5;
+    font-family: Courier, monospace;
+    font-size: large;
 }
 img{
     border: 5px solid #F3B9FF;
@@ -42,7 +45,7 @@ header ul{
     padding: 0;
     overflow: hidden;
     background-color: #2F007A;
-    font-family: Oswald, Courier, monospace;}
+    font-family: Courier, monospace;}
 
 header li { float: left;}
 
@@ -52,6 +55,7 @@ header li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: larger;
   }
 
 header li a:hover {
@@ -135,3 +139,13 @@ video{
     .video {
       /* Stop the animation */
       animation: none;}}
+
+.ingredients {display: inline;
+font-size: large;
+font-family: Courier, monospace;
+list-style-type: square;}
+
+.steps {display: inline;
+font-size: large;
+font-family: Courier, monospace;
+list-style-type: decimal;}
